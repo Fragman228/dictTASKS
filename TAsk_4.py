@@ -6,6 +6,7 @@ dck = {
     "5": "five"
 }
 print(dck)
-dck.pop("5")
+a = dck.keys()
 print(dck)
-dck.update(dck.popitem())
+dck.update()
+print(dck)
